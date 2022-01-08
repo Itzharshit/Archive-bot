@@ -42,7 +42,7 @@ class Msg:
     def start(msg: Message) -> str:
         """ return start-message text """
         txt = f"Hii {msg.from_user.mention}!\n" \
-              "\nI am file file zipper bot created by @pyrogrammers, i can convert multiple files into zip files." \
+              "\nI am file file archiver bot created by @pyrogrammers, i can convert multiple files into zip files." \
               "\nJust send /zip to get further instructions of zipping your files."
         return txt
 
