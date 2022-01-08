@@ -41,18 +41,18 @@ class Msg:
 
     def start(msg: Message) -> str:
         """ return start-message text """
-        txt = f"Hey {msg.from_user.mention}!\n" \
-              "\nI can compress files in to an archive." \
-              "\nJust send /zip, and follow the instructions."
+        txt = f"Hii {msg.from_user.mention}!\n" \
+              "\nI am file file zipper bot created by @pyrogrammers, i can convert multiple files into zip files." \
+              "\nJust send /zip to get further instructions of zipping your files."
         return txt
 
-    zip = "Send the files you want to compress, and at the end send /stopzip after all the files have been downloaded.\n" \
-          "\n\nNote: due to upload limit, the total size of the file(s) can be at most 2GB."
-    too_big = "Note: due to upload limit, the total size of the file(s) can be at most 2GB."
-    too_much = "Note: the total number of the files can be at most 500"
+    zip = "Now send me all the files that you want to archive, and when done send /done after all files Downloaded.\n" \
+          "\n\nNote: due to TG upload limit, the total size of the files can't upto 2GB."
+    too_big = "Note: due to TG upload limit, the total size of the file can't be greater than 2GB."
+    too_much = "Note: the total number of the files can be upto 500"
     send_zip = "Send /zip to compress the files"
     zipping = "start compressing {} files..."
     uploading = "uploading archive..."
     unknow_error = "An unknown error occurred"
-    downloading = "downloading..."
-    zero_files = "No files were sent"
+    downloading = "downloading your files..."
+    zero_files = "Files not sent."
