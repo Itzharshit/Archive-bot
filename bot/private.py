@@ -65,7 +65,7 @@ def enter_files(_, msg: types.Message):
             msg.reply(Msg.send_zip)  # if user-status is not "INSERT"
 
 
-@Client.on_message(filters.command("stopzip"))
+@Client.on_message(filters.command("done"))
 def stop_zip(_, msg: types.Message):
     """ exit from insert mode and send the archive """
     uid = msg.from_user.id
