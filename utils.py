@@ -54,5 +54,5 @@ class Msg:
     zipping = "start compressing {} files..."
     uploading = "uploading archive..."
     unknow_error = "An unknown error occurred"
-    downloading = "downloading your files..."
+    downloading = "Downloading your files..."
     zero_files = "Files not sent."
